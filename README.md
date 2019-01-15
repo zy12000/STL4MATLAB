@@ -10,9 +10,9 @@ Floating-point numbers are represented as IEEE floating-point numbers and are as
     UINT8[80] – Header
     UINT32 – Number of triangles
     foreach triangle
-    REAL32[3] – Normal vector
-    REAL32[3] – Vertex 1
-    REAL32[3] – Vertex 2
-    REAL32[3] – Vertex 3
-    UINT16 – Attribute byte count
+        REAL32[3] – Normal vector
+        REAL32[3] – Vertex 1
+        REAL32[3] – Vertex 2
+        REAL32[3] – Vertex 3
+        UINT16 – Attribute byte count
     end
